@@ -96,7 +96,14 @@ public class Latihan {
 
         System.out.println("Nilai       : " + nilai + " = " + nilaiAbjad);
 
-        //kelulusan
+        // sama seperti diatas, tetapi untuk yang dibawah ini kemungkinannya cuma 2
+        // jadi, jika nilai di dalam (if) nya true maka System akan menjalankan program di dalam kurung kurawalnya si (if)
+        // tapi, jika nilai di dalam (if) nya false maka System akan menjalankan program di dalam kurung kurawalnya si (else)
+        
+        // cara membaca kodingan dibawah ini yaitu
+        
+        // (if) jika nilai yang dimasukkan oleh pengguna lebih dari sama dengan 70, maka System akan print "Kelulusan: Anda Lulus"
+        // (else) dan jika nilai yang dimasukkan oleh pengguna, selain dari yang diatas, maka System akan print "Kelulusan: Anda Tidak Lulus"
 
         if (nilai >= 70){
             System.out.println("Kelulusan   : Anda Lulus");
