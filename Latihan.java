@@ -1,10 +1,8 @@
+// author @muhammadfaruq.hz
+
 // memanggil Scanner dari source
 // fungsi Scanner adalah untuk mengambil input dari pengguna
 import java.util.Scanner;
-
-// author @muhammadfaruq.hz
-
-// penjelasan! tanda (~...~) merupakan penempatannya dalam kode yang saya buat
 
 // nama public class sesuai dengan nama file java yang kita buat
 // dalam kasus ini adalah Latihan.java
@@ -12,27 +10,27 @@ public class Latihan {
     public static void main(String[] args) {
 
         // CARA MENGINISIALISASI SCANNER
-        // mengetik tipe data-nya yaitu "Scanner" ~1 kata pertama~
-        // membuat nama variabel dari Scanner, dalam kasus ini "input" ~1 kata kedua~
+        // mengetik tipe data-nya yaitu "Scanner"
+        // membuat nama variabel dari Scanner, dalam kasus ini "input" setelah "Scanner"
         // untuk nama variabel dari Scanner bisa kita buat sesuka hati kita
         // setelah itu sama dengan(=)
-        // diteruskan dengan "new Scanner(System.in);" memang default syntax-nya ~setelah sama dengan(=)~
+        // diteruskan dengan "new Scanner(System.in);" memang default syntax-nya
         Scanner input = new Scanner(System.in);
 
-        // String, int, double adalah sebagai tipe data ~1 kata pertama~
-        // sedangkan nama, kelas, nim, jurusan, nilai, nilaiAbjad dan semester ~1 kata kedua~
-        // itu merupakan nama variabel dari tipe data-nya
+        // String, int, double adalah sebagai tipe data
+        // sedangkan nama, kelas, nim, jurusan, nilai, nilaiAbjad dan semester
+        // itu merupakan nama variabel dari tipe data-nya dan diketik setelah tipe data
         // nama variabel dari tipe data, bisa kita buat sesuai keinginan kita
         String nama, kelas, nim, jurusan, nilaiAbjad;
         int semester;
         double nilai;
 
         // CARA MENGGUNAKAN SCANNER - yang dibawah sout
-        // ketik nama dari variabel tipe data-nya, dalam kasus ini yaitu; nama, nim, kelas, dll ~1 kata pertama~
+        // ketik nama dari variabel tipe data-nya, dalam kasus ini yaitu; nama, nim, kelas, dll
         // setelah itu sama dengan(=)
-        // masukkan nama variabel dari tipe data Scanner tadi, dalam kasus ini yaitu "input" ~1 kata kedua~
+        // masukkan nama variabel dari tipe data Scanner tadi, dalam kasus ini yaitu "input"
         // diikuti dengan titik(.) lalu function-nya
-        // kalau dalam Scanner ini, function-nya adalah; .nextInt(), .nextLine(), .nextLong(), dll ~1 kata ketiga~
+        // kalau dalam Scanner ini, function-nya adalah; .nextInt(), .nextLine(), .nextLong(), dll
         // sesuai dengan tipe data dari variabel tadi
         // untuk tipe data String, itu bisa menggunakan .nextLine() dan .next(), perbedaannya seperti println dan print
         System.out.print("masukkan nama: ");
@@ -59,9 +57,8 @@ public class Latihan {
         System.out.println("Kelas       : " + kelas);
         System.out.println("Semester    : " + semester);
 
-        //nilai abjad
         // CARA PERCABANGAN / IF STATEMENT
-        // mengetik "if" ~1 kata pertama~
+        // mengetik "if"
         // dilanjutkan dengan membuka kurung biasa (...), dan memasukkan logika didalamnya dengan menggunakan operasi logika
         // setelah memasukkan logika-nya, buka kurung kurawal {...} dan menuliskan program didalamnya jika logika tadi bernilai true
         // contoh cara membaca koding dibawah, yaitu
