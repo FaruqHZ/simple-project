@@ -64,7 +64,7 @@ public class Latihan {
         // setelah memasukkan logika-nya, buka kurung kurawal {...} dan menuliskan program didalamnya jika logika tadi bernilai true, maka System akan menjalankan program-nya
         // contoh cara membaca koding dibawah, yaitu
 
-        // (if) jika "nilai" yang dimasukkan pengguna lebih dari sama dengan 0 dan dibawah 50, maka value dari "nilaiAbjad"-nya "E"
+        // (if) jika "nilai" yang dimasukkan pengguna lebih dari sama dengan 0 dan kurang dari 50, maka value dari "nilaiAbjad"-nya "E"
         // atau yang diprint nanti oleh "nilaiAbjad" nya adalah "E" begitu juga seterusnya
         // (else if) tapi jika "nilai" yang dimasukkan pengguna lebih dari sama dengan 50 dan kurang dari 60, maka value-nya "D"
         // (else if) tapi jika "nilai" yang dimasukkan pengguna lebih dari sama dengan 60 dan kurang dari 70, maka value-nya "C"
