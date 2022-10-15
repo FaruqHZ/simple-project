@@ -1,4 +1,5 @@
 // author @muhammadfaruq.hz
+// author @hfdzrhmn_
 
 // memanggil Scanner dari library
 // fungsi Scanner adalah untuk mengambil input dari pengguna
