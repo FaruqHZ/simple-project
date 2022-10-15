@@ -1,6 +1,6 @@
 // author @muhammadfaruq.hz
 
-// memanggil Scanner dari source
+// memanggil Scanner dari library
 // fungsi Scanner adalah untuk mengambil input dari pengguna
 import java.util.Scanner;
 
