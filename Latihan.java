@@ -61,7 +61,7 @@ public class Latihan {
         // CARA PERCABANGAN / IF STATEMENT
         // mengetik "if"
         // dilanjutkan dengan membuka kurung biasa (...), dan memasukkan logika didalamnya dengan menggunakan operasi logika
-        // setelah memasukkan logika-nya, buka kurung kurawal {...} dan menuliskan program didalamnya jika logika tadi bernilai true
+        // setelah memasukkan logika-nya, buka kurung kurawal {...} dan menuliskan program didalamnya jika logika tadi bernilai true, maka System akan menjalankan program-nya
         // contoh cara membaca koding dibawah, yaitu
 
         // (if) jika "nilai" yang dimasukkan pengguna lebih dari sama dengan 0 dan dibawah 50, maka value dari "nilaiAbjad"-nya "E"
