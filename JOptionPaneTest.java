@@ -36,14 +36,14 @@ public class JOptionTest {
         kelas = JOptionPane.showInputDialog("Masukkan Kelas : ");
         
         semester = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Semester : "));  // ini untuk yang bertipe data selain 'String' maka kodingannya terlebih dahulu diparse-kan, dengan cara
-        // 'jenis tipe data' '.' + 'Parse+jenis tipe data' -ingat untuk penulisan tipe datanya, huruf pertamanya itu kapital yak- bisa dilihat pada contoh kodingan kita diatas-
+        // 'jenis tipe data' '.' + 'Parse+jenis tipe data' -ingat untuk penulisan tipe datanya, huruf pertamanya itu kapital yak- bisa dilihat pada contoh kodingan kita diatas
         // 'Integer' sebagai jenis tipe data, dilanjutkan dengan titik '.'
         // 'parseInt' sebagai parse+jenis tipe data, baru kemudian dilanjutkan dengan buka kurung
         // dan didalam buka kurung tadi kemudian dilanjutkan 'JOptionPane.showInputDialog("...");
         // sehingga final kodingannya bisa dilihat pada variabel 'semester' diatas
 
         uts = Double.parseDouble(JOptionPane.showInputDialog("Masukkan Nilai UTS :"));  // ini untuk yang bertipe data selain 'String' maka kodingannya terlebih dahulu diparse
-        uas = Double.parseDouble(JOptionPane.showInputDialog("Masukkan Nilai UAS :"));  // 'jenis tipe data' '.' + 'Parse+jenis tipe data' - ingat (lagi) untuk penulisan tipe datanya, huruf pertamanya itu kapital yak- bisa dilihat pada contoh kodingan kita diatas-
+        uas = Double.parseDouble(JOptionPane.showInputDialog("Masukkan Nilai UAS :"));  // 'jenis tipe data' '.' + 'Parse+jenis tipe data' - ingat (lagi) untuk penulisan tipe datanya, huruf pertamanya itu kapital yak- bisa dilihat pada contoh kodingan kita diatas
         // 'Double' sebagai jenis tipe data, dilanjutkan dengan titik '.'
         // 'parseDouble' sebagai parse+jenis tipe data, baru kemudian dilanjutkan dengan buka kurung
         // dan didalam buka kurung tadi kemudian dilanjutkan 'JOptionPane.showInputDialog("...");
