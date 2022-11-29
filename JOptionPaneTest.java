@@ -21,7 +21,7 @@ public class JOptionTest {
 // untuk variabel yang tipe datanya 'String', maka kodingannya langsung 'JOptionPane.showInputDialog("...");' atau tidak diparse terlebih dahulu
 // seperti contoh dalam kasus ini variabel 'nama, NIM, jurusan, kelas' yang bertipe data 'String' maka kodingannya langsung 'JOptionPane.showInputDialog("...");'
 
-// untuk variabel yang tipe datanya selain 'String' maka kodingannya harus diparse terlebih dahulu baru setelahnya ditulis 'JOptionPane.showInputDialog'
+// tapi, untuk variabel yang tipe datanya selain 'String' maka kodingannya harus diparse terlebih dahulu baru setelahnya ditulis 'JOptionPane.showInputDialog'
 // seperti contoh dalam kasus ini variabel 'semester' yang bertipe data 'int' maka kodingannya harus diparse terlebih dahulu
 // dan variabel 'uts, uas, nilaiAkhir' yang bertipe data 'double' maka kodingannya juga harus diparse terlebih dahulu
 // dengan cara
