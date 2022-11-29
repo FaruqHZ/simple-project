@@ -16,7 +16,7 @@ public class JOptionTest {
 
 // syntax atau kodingannya, yaitu
 // 'nama variabel' + '=' + 'JOptionPane.showInputDialog("");'
-// 'nama variabel' dalam kasus ini yaitu 'nama', 'NIM', 'jurusan', 'kelas', 'semester', 'uts', 'uas', 'nilaiAkhir'
+// 'nama variabel' dalam kasus kodingan kita ini yaitu 'nama', 'NIM', 'jurusan', 'kelas', 'semester', 'uts', 'uas', 'nilaiAkhir'
 
 // untuk variabel yang tipe datanya 'String', maka kodingannya langsung 'JOptionPane.showInputDialog("");' atau tidak diparse terlebih dahulu
 // seperti contoh dalam kasus ini variabel 'nama, NIM, jurusan, kelas' yang bertipe data 'String' maka kodingannya langsung 'JOptionPane.showInputDialog("");'
