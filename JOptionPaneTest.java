@@ -27,8 +27,8 @@ public class JOptionTest {
 // dengan cara
 // 'jenis tipe data' + dilanjutkan dengan titik '.' 'Parse+jenis tipe data' baru dimasukkan kodingan '(JOptionPane.showInputDialog(""));'
 
-// kodingan untuk meng-parse-kan variabel yang tipe datanya 'int' berbeda dengan kodingan untuk meng-parse-kan variabel yang tipe datanya 'double'
-// perbedaan kodingannya hanya terletak pada jenis tipe datanya
+// kodingan untuk me-parse-kan variabel yang tipe datanya 'int' berbeda dengan kodingan untuk meng-parse-kan variabel yang tipe datanya 'double'
+// perbedaan kodingannya hanya terletak pada jenis tipe datanya saja
 
         nama = JOptionPane.showInputDialog("Masukkan Nama : "); // ini yang untuk bertipe data 'String' maka kodingannya langsung 'JOptionPane.showInputDialog("");'
         NIM = JOptionPane.showInputDialog("Masukkan NIM : ");
