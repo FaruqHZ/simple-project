@@ -23,7 +23,7 @@ public class JOptionTest {
 
 // untuk variabel yang tipe datanya selain 'String' maka kodingannya harus diparse terlebih dahulu baru setelahnya ditulis 'JOptionPane.showInputDialog'
 // seperti contoh dalam kasus ini variabel 'semester' yang bertipe data 'int' maka kodingannya harus diparse terlebih dahulu
-// dan variabel 'uts, uas, nilaiAkhir' yang bertipe data 'double' maka kodingannya harus diparse terlebih dahulu
+// dan variabel 'uts, uas, nilaiAkhir' yang bertipe data 'double' maka kodingannya juga harus diparse terlebih dahulu
 // dengan cara
 // 'jenis tipe data' + dilanjutkan dengan titik '.' 'Parse+jenis tipe data' baru dimasukkan kodingan '(JOptionPane.showInputDialog(""));'
 
