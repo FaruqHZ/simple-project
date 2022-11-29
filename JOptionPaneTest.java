@@ -49,7 +49,7 @@ public class JOptionTest {
         // dan didalam buka kurung tadi kemudian dilanjutkan 'JOptionPane.showInputDialog("...");
         // sehingga final kodingannya bisa dilihat pada variabel 'uts', 'uas' diatas
 
-        nilaiAkhir = (uts + uas) / 2; // untuk yang ini sebenarnya cuma inisialisasi variabel biasa, seperti yang sudah kita pelajari sebelumnya (bukan materi khusus JOptionPane)
+        nilaiAkhir = (uts + uas) / 2; // untuk yang ini sebenarnya cuma inisialisasi variabel seperti biasa, seperti yang sudah kita pelajari sebelumnya (bukan materi khusus JOptionPane)
 
         
 // dan untuk menampilkan nilai yang sudah diinputkan pengguna
