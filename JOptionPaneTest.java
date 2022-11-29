@@ -35,7 +35,7 @@ public class JOptionTest {
         jurusan = JOptionPane.showInputDialog("Masukkan Jurusan : ");
         kelas = JOptionPane.showInputDialog("Masukkan Kelas : ");
         
-        semester = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Semester : "));  // ini yang untuk bertipe data selain 'String' maka kodingannya terlebih dahulu diparse
+        semester = Integer.parseInt(JOptionPane.showInputDialog("Masukkan Semester : "));  // ini untuk yang bertipe data selain 'String' maka kodingannya terlebih dahulu diparse
         // 'jenis tipe data' '.' + 'Parse+jenis tipe data' -ingat untuk penulisan tipe datanya, huruf pertamanya itu kapital yak- bisa dilihat pada contoh kodingan kita diatas-
         // 'Integer' sebagai jenis tipe data, dilanjutkan dengan titik '.'
         // 'parseInt' sebagai parse+jenis tipe data, baru kemudian dilanjutkan dengan buka kurung
