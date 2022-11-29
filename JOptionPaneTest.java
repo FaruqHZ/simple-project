@@ -15,22 +15,22 @@ public class JOptionTest {
 // ============================ tab atau pop-up yang pertama muncul untuk mengambil nilai yang diinput pengguna ============================
 
 // syntax atau kodingannya, yaitu
-// 'nama variabel' + '=' + 'JOptionPane.showInputDialog("");'
+// 'nama variabel' + '=' + 'JOptionPane.showInputDialog("...");'
 // 'nama variabel' dalam kasus kodingan kita ini yaitu 'nama', 'NIM', 'jurusan', 'kelas', 'semester', 'uts', 'uas', 'nilaiAkhir'
 
-// untuk variabel yang tipe datanya 'String', maka kodingannya langsung 'JOptionPane.showInputDialog("");' atau tidak diparse terlebih dahulu
-// seperti contoh dalam kasus ini variabel 'nama, NIM, jurusan, kelas' yang bertipe data 'String' maka kodingannya langsung 'JOptionPane.showInputDialog("");'
+// untuk variabel yang tipe datanya 'String', maka kodingannya langsung 'JOptionPane.showInputDialog("...");' atau tidak diparse terlebih dahulu
+// seperti contoh dalam kasus ini variabel 'nama, NIM, jurusan, kelas' yang bertipe data 'String' maka kodingannya langsung 'JOptionPane.showInputDialog("...");'
 
 // untuk variabel yang tipe datanya selain 'String' maka kodingannya harus diparse terlebih dahulu baru setelahnya ditulis 'JOptionPane.showInputDialog'
 // seperti contoh dalam kasus ini variabel 'semester' yang bertipe data 'int' maka kodingannya harus diparse terlebih dahulu
 // dan variabel 'uts, uas, nilaiAkhir' yang bertipe data 'double' maka kodingannya juga harus diparse terlebih dahulu
 // dengan cara
-// 'jenis tipe data' + dilanjutkan dengan titik '.' 'Parse+jenis tipe data' baru dimasukkan kodingan '(JOptionPane.showInputDialog(""));'
+// 'jenis tipe data' + dilanjutkan dengan titik '.' 'Parse+jenis tipe data' baru dimasukkan kodingan '(JOptionPane.showInputDialog("..."));'
 
 // kodingan untuk me-parse-kan variabel yang tipe datanya 'int' berbeda dengan kodingan untuk meng-parse-kan variabel yang tipe datanya 'double'
 // perbedaan kodingannya hanya terletak pada jenis tipe datanya saja
 
-        nama = JOptionPane.showInputDialog("Masukkan Nama : "); // ini untuk yang bertipe data 'String' maka kodingannya langsung 'JOptionPane.showInputDialog("");'
+        nama = JOptionPane.showInputDialog("Masukkan Nama : "); // ini untuk yang bertipe data 'String' maka kodingannya langsung 'JOptionPane.showInputDialog("...");'
         NIM = JOptionPane.showInputDialog("Masukkan NIM : ");
         jurusan = JOptionPane.showInputDialog("Masukkan Jurusan : ");
         kelas = JOptionPane.showInputDialog("Masukkan Kelas : ");
@@ -64,7 +64,7 @@ public class JOptionTest {
         
 // ============================ tab atau pop-up yang muncul untuk menampilkan nilai yang sudah diinput oleh pengguna ============================
         
-        JOptionPane.showMessageDialog(null,"Nama : " + nama + // ini adalah syntax atau kodingannya, yaitu 'JOptionPane.showMessageDialog(null,...) -null jangan sampai lupa yak, di awal dalam kurung-
+        JOptionPane.showMessageDialog(null,"Nama : " + nama + // ini adalah syntax atau kodingannya, yaitu 'JOptionPane.showMessageDialog(null, ...) -null jangan sampai lupa yak, di awal dalam kurung-
                         "\nNIM : " + NIM +                    // di dalam kurung, itu ditulis apa yang akan mau kita tampilkan nantinya pada pop-up 'showMessageDialog'
                         "\nJurusan : " + jurusan +            // seperti contoh, pada kasus ini kita akan menampilkan nilai yang sudah kita inputkan di 'showInputDialog' tadi
                         "\nKelas : " + kelas +                // maka kita akan menulis beberapa kata dan akan memanggil variabel tempat nilai yang kita input tadi
@@ -94,7 +94,7 @@ public class JOptionTest {
         // maka, nanti output-nya akan keluar satu-satu, karena beliau itu berbentuk pop-up
         // jadi, setelah pop-up untuk variabel 'nama' itu muncul, kita harus meng-klik tombol "ok" terlebih dahulu, baru kemudian pop-up untuk variabel 'NIM' akan muncul
         // intinya, ia tidak akan muncul serentak seperti 'sout', melainkan satu per satu
-        // itulah mengapa kita hanya menggunakan satu kodingan 'JOptionPane.showMessageDialog(null,...)' untuk semua variabel
+        // itulah mengapa kita hanya menggunakan satu kodingan 'JOptionPane.showMessageDialog(null, ...)' untuk semua variabel
         // dan itulah mengapa kita memakai syntax '\n' untuk membuat baris baru yang masih dalam satu kodingan
     }
 }
