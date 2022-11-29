@@ -1,3 +1,5 @@
+// author @muhammadfaruq.hz
+
 // memanggil JOptionPane dari source
 // fungsi JOptionPane sama seperti Scanner adalah untuk mengambil input dari pengguna
 // bedanya kalo JOptionPane outputnya berupa "Tab Dialog" atau "Pop-Up"
