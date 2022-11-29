@@ -53,7 +53,7 @@ public class JOptionTest {
 
         
 // dan untuk menampilkan nilai yang sudah diinputkan pengguna
-// kodingan JOption-nya berbeda dengan yang pertama tadi
+// syntax JOption-nya berbeda dengan yang pertama tadi
 // bedanya yaitu, pada 'showInputDialog' dengan 'showMessageDialog'
         
 // kalau 'showInputDialog' itu digunakan untuk mengambil nilai yang diinput oleh pengguna
