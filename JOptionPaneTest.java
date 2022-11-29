@@ -64,7 +64,7 @@ public class JOptionTest {
         
 // ============================ tab atau pop-up yang muncul untuk menampilkan nilai yang sudah diinput oleh pengguna ============================
         
-        JOptionPane.showMessageDialog(null,"Nama : " + nama + // ini adalah syntax atau kodingannya, yaitu 'JOptionPane.showMessageDialog(null, ...) -null jangan sampai lupa yak, di awal dalam kurung-
+        JOptionPane.showMessageDialog(null,"Nama : " + nama + // ini adalah syntax atau kodingannya, yaitu 'JOptionPane.showMessageDialog(null, ...) -null jangan sampai lupa yak, di awal dalam kurung, lalu koma','-
                         "\nNIM : " + NIM +                    // di dalam kurung, itu ditulis apa yang akan mau kita tampilkan nantinya pada pop-up 'showMessageDialog'
                         "\nJurusan : " + jurusan +            // seperti contoh, pada kasus ini kita akan menampilkan nilai yang sudah kita inputkan di 'showInputDialog' tadi
                         "\nKelas : " + kelas +                // maka kita akan menulis beberapa kata dan akan memanggil variabel tempat nilai yang kita input tadi
