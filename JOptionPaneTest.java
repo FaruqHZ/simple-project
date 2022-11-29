@@ -30,7 +30,7 @@ public class JOptionTest {
 // kodingan untuk me-parse-kan variabel yang tipe datanya 'int' berbeda dengan kodingan untuk meng-parse-kan variabel yang tipe datanya 'double'
 // perbedaan kodingannya hanya terletak pada jenis tipe datanya saja
 
-        nama = JOptionPane.showInputDialog("Masukkan Nama : "); // ini yang untuk bertipe data 'String' maka kodingannya langsung 'JOptionPane.showInputDialog("");'
+        nama = JOptionPane.showInputDialog("Masukkan Nama : "); // ini untuk yang bertipe data 'String' maka kodingannya langsung 'JOptionPane.showInputDialog("");'
         NIM = JOptionPane.showInputDialog("Masukkan NIM : ");
         jurusan = JOptionPane.showInputDialog("Masukkan Jurusan : ");
         kelas = JOptionPane.showInputDialog("Masukkan Kelas : ");
@@ -42,7 +42,7 @@ public class JOptionTest {
         // dan didalam buka kurung tadi kemudian dilanjutkan 'JOptionPane.showInputDialog("");
         // sehingga final kodingannya bisa dilihat pada variabel 'semester' diatas
 
-        uts = Double.parseDouble(JOptionPane.showInputDialog("Masukkan Nilai UTS :"));  // ini yang untuk bertipe data selain 'String' maka kodingannya terlebih dahulu diparse
+        uts = Double.parseDouble(JOptionPane.showInputDialog("Masukkan Nilai UTS :"));  // ini untuk yang bertipe data selain 'String' maka kodingannya terlebih dahulu diparse
         uas = Double.parseDouble(JOptionPane.showInputDialog("Masukkan Nilai UAS :"));  // 'jenis tipe data' '.' + 'Parse+jenis tipe data' - ingat (lagi) untuk penulisan tipe datanya, huruf pertamanya itu kapital yak- bisa dilihat pada contoh kodingan kita diatas-
         // 'Double' sebagai jenis tipe data, dilanjutkan dengan titik '.'
         // 'parseDouble' sebagai parse+jenis tipe data, baru kemudian dilanjutkan dengan buka kurung
